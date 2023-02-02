@@ -16,5 +16,10 @@ namespace CosCafe_POS
         {
             InitializeComponent();
         }
+
+        private void listBox_orderName_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

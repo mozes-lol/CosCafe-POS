@@ -52,12 +52,13 @@ namespace CosCafe_POS
             // 
             // button_confirmCustomerOrderList
             // 
+            this.button_confirmCustomerOrderList.BackColor = System.Drawing.Color.MistyRose;
             this.button_confirmCustomerOrderList.Location = new System.Drawing.Point(12, 218);
             this.button_confirmCustomerOrderList.Name = "button_confirmCustomerOrderList";
             this.button_confirmCustomerOrderList.Size = new System.Drawing.Size(229, 69);
             this.button_confirmCustomerOrderList.TabIndex = 1;
             this.button_confirmCustomerOrderList.Text = "Confirm Order List";
-            this.button_confirmCustomerOrderList.UseVisualStyleBackColor = true;
+            this.button_confirmCustomerOrderList.UseVisualStyleBackColor = false;
             // 
             // listBox_orderName
             // 
@@ -67,6 +68,7 @@ namespace CosCafe_POS
             this.listBox_orderName.Name = "listBox_orderName";
             this.listBox_orderName.Size = new System.Drawing.Size(226, 364);
             this.listBox_orderName.TabIndex = 5;
+            this.listBox_orderName.SelectedIndexChanged += new System.EventHandler(this.listBox_orderName_SelectedIndexChanged);
             // 
             // listBox_quantity
             // 
