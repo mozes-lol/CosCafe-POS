@@ -1,0 +1,10 @@
+C:\projects\software\CosCafe-POS\CosCafe POS\CosCafe POS\bin\Debug\CosCafe POS.exe.config
+C:\projects\software\CosCafe-POS\CosCafe POS\CosCafe POS\bin\Debug\CosCafe POS.exe
+C:\projects\software\CosCafe-POS\CosCafe POS\CosCafe POS\bin\Debug\CosCafe POS.pdb
+C:\projects\software\CosCafe-POS\CosCafe POS\CosCafe POS\obj\Debug\CosCafe POS.csproj.AssemblyReference.cache
+C:\projects\software\CosCafe-POS\CosCafe POS\CosCafe POS\obj\Debug\CosCafe_POS.Form1.resources
+C:\projects\software\CosCafe-POS\CosCafe POS\CosCafe POS\obj\Debug\CosCafe_POS.Properties.Resources.resources
+C:\projects\software\CosCafe-POS\CosCafe POS\CosCafe POS\obj\Debug\CosCafe POS.csproj.GenerateResource.cache
+C:\projects\software\CosCafe-POS\CosCafe POS\CosCafe POS\obj\Debug\CosCafe POS.csproj.CoreCompileInputs.cache
+C:\projects\software\CosCafe-POS\CosCafe POS\CosCafe POS\obj\Debug\CosCafe POS.exe
+C:\projects\software\CosCafe-POS\CosCafe POS\CosCafe POS\obj\Debug\CosCafe POS.pdb
