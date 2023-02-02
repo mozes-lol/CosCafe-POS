@@ -36,7 +36,9 @@ namespace CosCafe_POS
             this.listBox_orderCost = new System.Windows.Forms.ListBox();
             this.label_orderName = new System.Windows.Forms.Label();
             this.label_quantity = new System.Windows.Forms.Label();
+            this.label_orderCost = new System.Windows.Forms.Label();
             this.label_totalCost = new System.Windows.Forms.Label();
+            this.label_totalCostNumber = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button_addOrderDetails
@@ -61,9 +63,9 @@ namespace CosCafe_POS
             // 
             this.listBox_orderName.FormattingEnabled = true;
             this.listBox_orderName.ItemHeight = 20;
-            this.listBox_orderName.Location = new System.Drawing.Point(258, 32);
+            this.listBox_orderName.Location = new System.Drawing.Point(259, 32);
             this.listBox_orderName.Name = "listBox_orderName";
-            this.listBox_orderName.Size = new System.Drawing.Size(226, 404);
+            this.listBox_orderName.Size = new System.Drawing.Size(226, 364);
             this.listBox_orderName.TabIndex = 5;
             // 
             // listBox_quantity
@@ -72,7 +74,7 @@ namespace CosCafe_POS
             this.listBox_quantity.ItemHeight = 20;
             this.listBox_quantity.Location = new System.Drawing.Point(490, 32);
             this.listBox_quantity.Name = "listBox_quantity";
-            this.listBox_quantity.Size = new System.Drawing.Size(53, 404);
+            this.listBox_quantity.Size = new System.Drawing.Size(53, 364);
             this.listBox_quantity.TabIndex = 6;
             // 
             // listBox_orderCost
@@ -81,7 +83,7 @@ namespace CosCafe_POS
             this.listBox_orderCost.ItemHeight = 20;
             this.listBox_orderCost.Location = new System.Drawing.Point(549, 34);
             this.listBox_orderCost.Name = "listBox_orderCost";
-            this.listBox_orderCost.Size = new System.Drawing.Size(108, 404);
+            this.listBox_orderCost.Size = new System.Drawing.Size(108, 364);
             this.listBox_orderCost.TabIndex = 7;
             // 
             // label_orderName
@@ -102,21 +104,42 @@ namespace CosCafe_POS
             this.label_quantity.TabIndex = 9;
             this.label_quantity.Text = "Quan.";
             // 
+            // label_orderCost
+            // 
+            this.label_orderCost.AutoSize = true;
+            this.label_orderCost.Location = new System.Drawing.Point(545, 9);
+            this.label_orderCost.Name = "label_orderCost";
+            this.label_orderCost.Size = new System.Drawing.Size(42, 20);
+            this.label_orderCost.TabIndex = 10;
+            this.label_orderCost.Text = "Cost";
+            // 
             // label_totalCost
             // 
             this.label_totalCost.AutoSize = true;
-            this.label_totalCost.Location = new System.Drawing.Point(549, 11);
+            this.label_totalCost.Location = new System.Drawing.Point(458, 412);
             this.label_totalCost.Name = "label_totalCost";
-            this.label_totalCost.Size = new System.Drawing.Size(81, 20);
-            this.label_totalCost.TabIndex = 10;
-            this.label_totalCost.Text = "Total Cost";
+            this.label_totalCost.Size = new System.Drawing.Size(85, 20);
+            this.label_totalCost.TabIndex = 11;
+            this.label_totalCost.Text = "Total Cost:";
+            // 
+            // label_totalCostNumber
+            // 
+            this.label_totalCostNumber.AutoSize = true;
+            this.label_totalCostNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_totalCostNumber.Location = new System.Drawing.Point(544, 405);
+            this.label_totalCostNumber.Name = "label_totalCostNumber";
+            this.label_totalCostNumber.Size = new System.Drawing.Size(26, 29);
+            this.label_totalCostNumber.TabIndex = 12;
+            this.label_totalCostNumber.Text = "0";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(670, 450);
+            this.Controls.Add(this.label_totalCostNumber);
             this.Controls.Add(this.label_totalCost);
+            this.Controls.Add(this.label_orderCost);
             this.Controls.Add(this.label_quantity);
             this.Controls.Add(this.label_orderName);
             this.Controls.Add(this.listBox_orderCost);
@@ -140,7 +163,9 @@ namespace CosCafe_POS
         private System.Windows.Forms.ListBox listBox_orderCost;
         private System.Windows.Forms.Label label_orderName;
         private System.Windows.Forms.Label label_quantity;
+        private System.Windows.Forms.Label label_orderCost;
         private System.Windows.Forms.Label label_totalCost;
+        private System.Windows.Forms.Label label_totalCostNumber;
     }
 }
 
