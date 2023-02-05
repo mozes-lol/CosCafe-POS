@@ -21,5 +21,17 @@ namespace CosCafe_POS
         {
 
         }
+
+        private void Main_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button_addOrderDetails_Click(object sender, EventArgs e)
+        {
+            Form addOrderEntry = new AddOrderEntry();
+            Form main = new Main();
+            addOrderEntry.Show();
+        }
     }
 }

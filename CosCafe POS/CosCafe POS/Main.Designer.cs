@@ -43,19 +43,20 @@ namespace CosCafe_POS
             // 
             // button_addOrderDetails
             // 
-            this.button_addOrderDetails.Location = new System.Drawing.Point(8, 93);
-            this.button_addOrderDetails.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button_addOrderDetails.Location = new System.Drawing.Point(8, 65);
+            this.button_addOrderDetails.Margin = new System.Windows.Forms.Padding(2);
             this.button_addOrderDetails.Name = "button_addOrderDetails";
             this.button_addOrderDetails.Size = new System.Drawing.Size(153, 45);
             this.button_addOrderDetails.TabIndex = 0;
             this.button_addOrderDetails.Text = "Add Order";
             this.button_addOrderDetails.UseVisualStyleBackColor = true;
+            this.button_addOrderDetails.Click += new System.EventHandler(this.button_addOrderDetails_Click);
             // 
             // button_confirmCustomerOrderList
             // 
             this.button_confirmCustomerOrderList.BackColor = System.Drawing.Color.MistyRose;
-            this.button_confirmCustomerOrderList.Location = new System.Drawing.Point(8, 142);
-            this.button_confirmCustomerOrderList.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button_confirmCustomerOrderList.Location = new System.Drawing.Point(8, 164);
+            this.button_confirmCustomerOrderList.Margin = new System.Windows.Forms.Padding(2);
             this.button_confirmCustomerOrderList.Name = "button_confirmCustomerOrderList";
             this.button_confirmCustomerOrderList.Size = new System.Drawing.Size(153, 45);
             this.button_confirmCustomerOrderList.TabIndex = 1;
@@ -66,7 +67,7 @@ namespace CosCafe_POS
             // 
             this.listBox_orderName.FormattingEnabled = true;
             this.listBox_orderName.Location = new System.Drawing.Point(173, 21);
-            this.listBox_orderName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.listBox_orderName.Margin = new System.Windows.Forms.Padding(2);
             this.listBox_orderName.Name = "listBox_orderName";
             this.listBox_orderName.Size = new System.Drawing.Size(152, 238);
             this.listBox_orderName.TabIndex = 5;
@@ -76,7 +77,7 @@ namespace CosCafe_POS
             // 
             this.listBox_quantity.FormattingEnabled = true;
             this.listBox_quantity.Location = new System.Drawing.Point(327, 21);
-            this.listBox_quantity.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.listBox_quantity.Margin = new System.Windows.Forms.Padding(2);
             this.listBox_quantity.Name = "listBox_quantity";
             this.listBox_quantity.Size = new System.Drawing.Size(37, 238);
             this.listBox_quantity.TabIndex = 6;
@@ -85,7 +86,7 @@ namespace CosCafe_POS
             // 
             this.listBox_orderCost.FormattingEnabled = true;
             this.listBox_orderCost.Location = new System.Drawing.Point(366, 22);
-            this.listBox_orderCost.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.listBox_orderCost.Margin = new System.Windows.Forms.Padding(2);
             this.listBox_orderCost.Name = "listBox_orderCost";
             this.listBox_orderCost.Size = new System.Drawing.Size(73, 238);
             this.listBox_orderCost.TabIndex = 7;
@@ -156,9 +157,10 @@ namespace CosCafe_POS
             this.Controls.Add(this.listBox_orderName);
             this.Controls.Add(this.button_confirmCustomerOrderList);
             this.Controls.Add(this.button_addOrderDetails);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Main";
             this.Text = "Main";
+            this.Load += new System.EventHandler(this.Main_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
