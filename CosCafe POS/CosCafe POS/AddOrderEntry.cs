@@ -26,7 +26,8 @@ namespace CosCafe_POS
             {
                 try
                 {
-                    //Debug.Print(streamReader.ReadToEnd());
+                    // reads Menu.csv
+                    Debug.Print(streamReader.ReadToEnd());
                 }
                 catch (Exception ex)
                 {
