@@ -64,7 +64,7 @@ namespace CosCafe_POS
                         string[] order = streamReader.ReadLine().Split(',');
                         if (selectedOrder == order[0])
                         {
-                            textBox_cost.Text = order[1];
+                            numericUpDown_cost.Text = order[1];
                             hasFoundMatchingOrder = true;
                         }
                     }
@@ -83,6 +83,9 @@ namespace CosCafe_POS
 
         }
 
+        private void button_enterOrderEntry_Click(object sender, EventArgs e)
+        {
 
+        }
     }
 }
