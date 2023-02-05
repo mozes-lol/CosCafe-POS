@@ -39,6 +39,10 @@ namespace CosCafe_POS
             // comboBox_chooseOrder
             // 
             this.comboBox_chooseOrder.FormattingEnabled = true;
+            this.comboBox_chooseOrder.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3"});
             this.comboBox_chooseOrder.Location = new System.Drawing.Point(51, 12);
             this.comboBox_chooseOrder.Name = "comboBox_chooseOrder";
             this.comboBox_chooseOrder.Size = new System.Drawing.Size(151, 21);

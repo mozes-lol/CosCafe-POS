@@ -22,10 +22,18 @@ namespace CosCafe_POS
         private void AddOrderEntry_Load(object sender, EventArgs e)
         {
             // loads Menu.csv
-            //using (var streamReader = new StreamReader(@"Menu.csv"))
+            using (var streamReader = new StreamReader(@"\Menu.csv"))
             {
-
+                try
+                {
+                    //Debug.Print(streamReader.ReadToEnd());
+                }
+                catch (Exception ex)
+                {
+                    Debug.Print("You monkey! Look what have you done: " + ex);
+                }
             }
+            using (var streamWriter = new StreamWriter(@"\Test.csv"));
         }
 
         private void AddOrderEntry_FormClosed(object sender, FormClosedEventArgs e)
