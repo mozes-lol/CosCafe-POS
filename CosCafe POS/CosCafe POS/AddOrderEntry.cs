@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace CosCafe_POS
 {
-    public partial class Main : Form
+    public partial class AddOrderEntry : Form
     {
-        public Main()
+        public AddOrderEntry()
         {
             InitializeComponent();
-        }
-
-        private void listBox_orderName_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

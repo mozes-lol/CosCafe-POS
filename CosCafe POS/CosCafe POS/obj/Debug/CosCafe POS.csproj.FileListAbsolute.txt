@@ -8,3 +8,13 @@ C:\projects\software\CosCafe-POS\CosCafe POS\CosCafe POS\obj\Debug\CosCafe POS.c
 C:\projects\software\CosCafe-POS\CosCafe POS\CosCafe POS\obj\Debug\CosCafe POS.csproj.CoreCompileInputs.cache
 C:\projects\software\CosCafe-POS\CosCafe POS\CosCafe POS\obj\Debug\CosCafe POS.exe
 C:\projects\software\CosCafe-POS\CosCafe POS\CosCafe POS\obj\Debug\CosCafe POS.pdb
+D:\Projects\Software Engineering\Software Projects\CosCafe-POS\CosCafe POS\CosCafe POS\bin\Debug\CosCafe POS.exe.config
+D:\Projects\Software Engineering\Software Projects\CosCafe-POS\CosCafe POS\CosCafe POS\bin\Debug\CosCafe POS.exe
+D:\Projects\Software Engineering\Software Projects\CosCafe-POS\CosCafe POS\CosCafe POS\bin\Debug\CosCafe POS.pdb
+D:\Projects\Software Engineering\Software Projects\CosCafe-POS\CosCafe POS\CosCafe POS\obj\Debug\CosCafe POS.csproj.AssemblyReference.cache
+D:\Projects\Software Engineering\Software Projects\CosCafe-POS\CosCafe POS\CosCafe POS\obj\Debug\CosCafe_POS.Properties.Resources.resources
+D:\Projects\Software Engineering\Software Projects\CosCafe-POS\CosCafe POS\CosCafe POS\obj\Debug\CosCafe POS.csproj.GenerateResource.cache
+D:\Projects\Software Engineering\Software Projects\CosCafe-POS\CosCafe POS\CosCafe POS\obj\Debug\CosCafe POS.csproj.CoreCompileInputs.cache
+D:\Projects\Software Engineering\Software Projects\CosCafe-POS\CosCafe POS\CosCafe POS\obj\Debug\CosCafe POS.exe
+D:\Projects\Software Engineering\Software Projects\CosCafe-POS\CosCafe POS\CosCafe POS\obj\Debug\CosCafe POS.pdb
+D:\Projects\Software Engineering\Software Projects\CosCafe-POS\CosCafe POS\CosCafe POS\obj\Debug\CosCafe_POS.Main.resources
