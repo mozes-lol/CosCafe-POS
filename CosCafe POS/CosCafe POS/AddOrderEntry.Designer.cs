@@ -34,9 +34,9 @@ namespace CosCafe_POS
             this.label_cost = new System.Windows.Forms.Label();
             this.button_enterOrderEntry = new System.Windows.Forms.Button();
             this.label_quantity = new System.Windows.Forms.Label();
-            this.numericUpDown_Quantit = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDown_Quantity = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown_cost = new System.Windows.Forms.NumericUpDown();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_Quantit)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_Quantity)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_cost)).BeginInit();
             this.SuspendLayout();
             // 
@@ -86,12 +86,12 @@ namespace CosCafe_POS
             this.label_quantity.TabIndex = 6;
             this.label_quantity.Text = "Quantity";
             // 
-            // numericUpDown_Quantit
+            // numericUpDown_Quantity
             // 
-            this.numericUpDown_Quantit.Location = new System.Drawing.Point(70, 66);
-            this.numericUpDown_Quantit.Name = "numericUpDown_Quantit";
-            this.numericUpDown_Quantit.Size = new System.Drawing.Size(150, 20);
-            this.numericUpDown_Quantit.TabIndex = 7;
+            this.numericUpDown_Quantity.Location = new System.Drawing.Point(70, 66);
+            this.numericUpDown_Quantity.Name = "numericUpDown_Quantity";
+            this.numericUpDown_Quantity.Size = new System.Drawing.Size(150, 20);
+            this.numericUpDown_Quantity.TabIndex = 7;
             // 
             // numericUpDown_cost
             // 
@@ -106,7 +106,7 @@ namespace CosCafe_POS
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(226, 170);
             this.Controls.Add(this.numericUpDown_cost);
-            this.Controls.Add(this.numericUpDown_Quantit);
+            this.Controls.Add(this.numericUpDown_Quantity);
             this.Controls.Add(this.label_quantity);
             this.Controls.Add(this.button_enterOrderEntry);
             this.Controls.Add(this.label_cost);
@@ -116,7 +116,7 @@ namespace CosCafe_POS
             this.Text = "AddOrderEntry";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.AddOrderEntry_FormClosed);
             this.Load += new System.EventHandler(this.AddOrderEntry_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_Quantit)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_Quantity)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_cost)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -130,7 +130,7 @@ namespace CosCafe_POS
         private System.Windows.Forms.Label label_cost;
         private System.Windows.Forms.Button button_enterOrderEntry;
         private System.Windows.Forms.Label label_quantity;
-        private System.Windows.Forms.NumericUpDown numericUpDown_Quantit;
+        private System.Windows.Forms.NumericUpDown numericUpDown_Quantity;
         private System.Windows.Forms.NumericUpDown numericUpDown_cost;
     }
 }

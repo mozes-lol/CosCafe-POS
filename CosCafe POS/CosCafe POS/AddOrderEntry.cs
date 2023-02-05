@@ -66,6 +66,7 @@ namespace CosCafe_POS
                         {
                             numericUpDown_cost.Text = order[1];
                             hasFoundMatchingOrder = true;
+                            numericUpDown_Quantity.Text = "1";
                         }
                     }
 
