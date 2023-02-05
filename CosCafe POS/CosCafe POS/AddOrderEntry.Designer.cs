@@ -43,6 +43,7 @@ namespace CosCafe_POS
             this.comboBox_chooseOrder.Name = "comboBox_chooseOrder";
             this.comboBox_chooseOrder.Size = new System.Drawing.Size(151, 21);
             this.comboBox_chooseOrder.TabIndex = 0;
+            this.comboBox_chooseOrder.SelectedIndexChanged += new System.EventHandler(this.comboBox_chooseOrder_SelectedIndexChanged);
             // 
             // label_chooseOrder
             // 
