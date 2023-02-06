@@ -29,7 +29,6 @@ namespace CosCafe_POS
         /// </summary>
         private void InitializeComponent()
         {
-            this.button_addOrderDetails = new System.Windows.Forms.Button();
             this.button_confirmCustomerOrderList = new System.Windows.Forms.Button();
             this.listBox_orderName = new System.Windows.Forms.ListBox();
             this.listBox_quantity = new System.Windows.Forms.ListBox();
@@ -54,17 +53,6 @@ namespace CosCafe_POS
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_Quantity)).BeginInit();
             this.panel_addOrderEntry.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // button_addOrderDetails
-            // 
-            this.button_addOrderDetails.Location = new System.Drawing.Point(2, 293);
-            this.button_addOrderDetails.Margin = new System.Windows.Forms.Padding(2);
-            this.button_addOrderDetails.Name = "button_addOrderDetails";
-            this.button_addOrderDetails.Size = new System.Drawing.Size(47, 10);
-            this.button_addOrderDetails.TabIndex = 0;
-            this.button_addOrderDetails.Text = "Add Order";
-            this.button_addOrderDetails.UseVisualStyleBackColor = true;
-            this.button_addOrderDetails.Click += new System.EventHandler(this.button_addOrderDetails_Click);
             // 
             // button_confirmCustomerOrderList
             // 
@@ -165,7 +153,6 @@ namespace CosCafe_POS
             // 
             this.panel_customerOrderList.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel_customerOrderList.Controls.Add(this.button_deleteOrderList);
-            this.panel_customerOrderList.Controls.Add(this.button_addOrderDetails);
             this.panel_customerOrderList.Controls.Add(this.listBox_orderName);
             this.panel_customerOrderList.Controls.Add(this.label_orderName);
             this.panel_customerOrderList.Controls.Add(this.label_totalCostNumber);
@@ -291,8 +278,6 @@ namespace CosCafe_POS
         }
 
         #endregion
-
-        private System.Windows.Forms.Button button_addOrderDetails;
         private System.Windows.Forms.Button button_confirmCustomerOrderList;
         private System.Windows.Forms.ListBox listBox_orderName;
         private System.Windows.Forms.ListBox listBox_quantity;

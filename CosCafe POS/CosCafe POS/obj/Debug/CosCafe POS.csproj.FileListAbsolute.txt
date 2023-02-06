@@ -18,4 +18,3 @@ D:\Projects\Software Engineering\Software Projects\CosCafe-POS\CosCafe POS\CosCa
 D:\Projects\Software Engineering\Software Projects\CosCafe-POS\CosCafe POS\CosCafe POS\obj\Debug\CosCafe POS.exe
 D:\Projects\Software Engineering\Software Projects\CosCafe-POS\CosCafe POS\CosCafe POS\obj\Debug\CosCafe POS.pdb
 D:\Projects\Software Engineering\Software Projects\CosCafe-POS\CosCafe POS\CosCafe POS\obj\Debug\CosCafe_POS.Main.resources
-D:\Projects\Software Engineering\Software Projects\CosCafe-POS\CosCafe POS\CosCafe POS\obj\Debug\CosCafe_POS.AddOrderEntry.resources

@@ -55,13 +55,6 @@ namespace CosCafe_POS
             }
         }
 
-        private void button_addOrderDetails_Click(object sender, EventArgs e)
-        {
-            Form addOrderEntry = new AddOrderEntry();
-            Form main = new Main();
-            addOrderEntry.Show();
-        }
-
         private void comboBox_chooseOrder_SelectedIndexChanged(object sender, EventArgs e)
         {
             // As soon as the user makes a choice on the order ComboBox, the program will go back to Menu.csv, find the selected
@@ -155,7 +148,8 @@ namespace CosCafe_POS
                     (
                         listBox_orderName.Items[line].ToString() + "," +
                         listBox_quantity.Items[line].ToString() + "," +
-                        listBox_orderCost.Items[line].ToString()
+                        listBox_orderCost.Items[line].ToString() + "," +
+                        DateTime.Now.ToString()
                     );
             }
             streamWriter.Close();
